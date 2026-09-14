@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vee Tools & Quiz - Free Online Utilities, Calculators & Quizzes</title>
+  <meta name="description" content="Free online tools including image converters, PDF editors, calculators, text utilities, unit converters, and interactive quizzes. Fast, secure, and browser-based.">
+  <meta name="keywords" content="image converter, pdf merger, bmi calculator, word counter, online quiz, qr code generator">
+  <link rel="canonical" href="https://veetools.com/">
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vee Tools & Quiz - Free Online Utilities">
+  <meta property="og:description" content="Free browser-based online tools, converters, calculators, and quizzes.">
+  <meta property="og:url" content="https://veetools.com/">
+  
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Third-Party Client Processing Engine CDNs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Vee Tools & Quiz</a>
+      <nav class="nav-links">
+        <a href="#category-image">Image</a>
+        <a href="#category-pdf">PDF</a>
+        <a href="#category-text">Text</a>
+        <a href="#category-calc">Calculators</a>
+        <a href="#category-quiz">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Top Ad Slot -->
+  <div class="container ad-wrapper">
+    <div class="ad-banner" id="ad-top">
+      <!-- Google AdSense Container -->
+      <small class="ad-label">Advertisement</small>
+    </div>
+  </div>
+
+  <main id="app-root" class="container">
+    <!-- Dynamic Routing Target -->
+  </main>
+
+  <!-- Bottom Ad Slot -->
+  <div class="container ad-wrapper">
+    <div class="ad-banner" id="ad-bottom">
+      <small class="ad-label">Advertisement</small>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Vee Tools & Quiz. All rights reserved. Privacy-first, browser-side processing.</p>
+      <div class="footer-links">
+        <a href="#guides">Guides</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
